@@ -1,0 +1,115 @@
+/*header section*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+/*navigation*/
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+/*navigation elements*/
+nav ul li {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+/* general formatting */
+body {
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    letter-spacing: 1px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    color: #000000;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(61, 18, 90);
+}
+
+/*sections formatting*/
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #bca0fa;
+    border-radius: 8px;
+}
+
+/* landing page */
+.title img{
+    padding: 20px;
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.about img{
+    width: 40%;
+    padding-left: 50px;
+}
+
+.about section {
+    display:flex;
+    align-items: center;
+}
+
+.about p {
+    font-size: 20px;
+
+    padding: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #ece6f9;
+    border-radius: 8px;
+
+}
+
+/* watch page */
+.watch video{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.cast section{
+    display:flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cast div{
+    padding: 15px;
+    background-color: #ece6f9;
+    border-radius: 8px;
+
+    text-align:center;
+}
+.cast img{
+    width: 80%;
+    display: block;
+    margin:auto
+
+}
+
+/* vision page */
+.vision p{
+    font-size: 20px;
+
+    padding: 15px;
+    background-color: #ece6f9;
+    border-radius: 8px;
+}
+
+.inspo img{
+    padding: 20px;
+    display: block;
+    margin: auto;
+    width: 70%;
+}
